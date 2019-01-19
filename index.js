@@ -2,7 +2,7 @@ document.addEventListener("DOMContentloaded", (e) => {
   init()})
   
 function init() {
-    let movieData =JSON.parse(movies);
+    let movieData =JSON.parse(movies.json);
     console.log(movieData)
      title.innerHTML = movieData.Titanic.title 
      director.innerHTML = movieData.Titanic.director
