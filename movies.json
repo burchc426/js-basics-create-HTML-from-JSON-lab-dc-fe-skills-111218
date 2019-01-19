@@ -1,4 +1,4 @@
-let movies = {
+movies = {
   "Titanic": {
     "title": "Titanic",
     "director": "James Cameron",
