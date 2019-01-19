@@ -14,7 +14,7 @@ function init() {
 }
 
 function terminate(){
-  let movieData =JSON.parse(movies)
+  let movieData =JSON.parse(movies.json)
   title.innerHTML = movieData.title
   
 };
