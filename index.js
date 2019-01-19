@@ -13,11 +13,6 @@ function init() {
      audienceScore.innerHTML = movieData.Titanic.audienceScore
 }
 
-function terminate(){
-  let movieData =JSON.parse(movies.json)
-  title.innerHTML = movieData.title
-  
-};
 
 //will need to add event to get info to open on load
 
