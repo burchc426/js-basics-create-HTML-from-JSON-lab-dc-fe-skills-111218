@@ -12,7 +12,13 @@ function init() {
      description.innerHTML = movieData.Titanic.description
      audienceScore.innerHTML = movieData.Titanic.audienceScore
 }
-
+     title.innerHTML = movieData["Terminator 2"].title
+     director.innerHTML = movieData["Terminator 2"].director
+     genre.innerHTML = movieData["Terminator 2"].genre
+     filmRating.innerHTML = movieData["Terminator 2"].filmRating
+     poster.innerHTML = movieData["Terminator 2"].poster
+     description.innerHTML = movieData["Terminator 2"].description
+     audienceScore.innerHTML = movieData["Terminator 2"].audienceScore
 
 //will need to add event to get info to open on load
 
